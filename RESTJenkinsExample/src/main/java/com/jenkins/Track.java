@@ -3,7 +3,7 @@ package com.jenkins;
 public class Track {
 
 	String title;  // title of Singer
-	String singer; // Singer Name
+	String singer; // Singer Name .....
 	
 
 	public String getTitle() {
