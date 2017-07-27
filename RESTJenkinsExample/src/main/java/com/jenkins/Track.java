@@ -3,7 +3,8 @@ package com.jenkins;
 public class Track {
 
 	String title;
-	String singer;
+	String singer; // Singer Name
+	
 
 	public String getTitle() {
 		return title;
@@ -26,4 +27,5 @@ public class Track {
 		return "Track [title=" + title + ", singer=" + singer + "]";
 	}
 
+	
 }
