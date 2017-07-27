@@ -15,9 +15,14 @@ public class JSONService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Track getTrackInJSON() {
 
+		System.out.println("In the getTrackInJSON()......");
+		//Logging.global.log(Level.INFO,"Hello");
+
 		Track track = new Track();
 		track.setTitle("Enter Sandman");
 		track.setSinger("Metallica");
+		
+		System.out.println("End of getTrackInJSON()......");
 
 		return track;
 
